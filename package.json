@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.1",
   "description": "server of vehical stolen",
-  "main": "./src/server.js",
+  "main": "server.js",
   "scripts": {
     "build": "build server.js",
     "start": "nodemon server.js"

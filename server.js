@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const app = express();
 
 const server = http.createServer(app);
-const port = 8585;
+const port = process.env.PORT || 8585;
 const dbpass = "stolen_report123";
 const dbusername = "stolen_report";
 

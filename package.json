@@ -4,9 +4,8 @@
   "description": "server of vehical stolen",
   "main": "./src/server.js",
   "scripts": {
-    "server": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
-    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda serve src",
-    "start": "nodemon src/server.js"
+    "build": "build server.js",
+    "start": "nodemon server.js"
   },
   "author": "kalpesh jadvani",
   "license": "ISC",

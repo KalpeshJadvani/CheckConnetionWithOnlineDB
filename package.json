@@ -4,7 +4,6 @@
   "description": "server of vehical stolen",
   "main": "server.js",
   "scripts": {
-    "build": "build server.js",
     "start": "nodemon server.js"
   },
   "author": "kalpesh jadvani",
@@ -14,8 +13,6 @@
     "express": "^4.17.3",
     "http-status": "^1.5.0",
     "mongoose": "^6.2.4",
-    "netlify-lambda": "^2.0.15",
-    "nodemon": "^2.0.15",
-    "serverless-http": "^2.7.0"
+    "nodemon": "^2.0.15"
   }
 }
